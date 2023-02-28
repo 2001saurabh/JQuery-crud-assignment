@@ -1,11 +1,11 @@
 # JQuery-crud-assignment
 An Assignment from Aloola.io as part of training.
 
-Tech Used:
+# Technology Used:
 
-#JQuery
-#HTML
-#Sementic UI
+1. JQuery
+2. HTML
+3. Sementic UI
 
 
 To run This Project 
