@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.css" integrity="sha512-6PtWSF1JdejluD9SoAmj/idJKF+dJoa2u9UMldygOhgT4M0dmXTiNUx1TwqNiEg4eIjOb4bZRQ19cOP7p8msYA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<div class="ui fluid container" >
+    <h2 class="ui center aligned header">
+        Student Management
+    </h2>
+
+    <div >
+        <div class="ui horizontal segments">
+
+
+        <div class="ui padded segment" >
+            <form class="ui form"  id="student-form" >
+                <div class ="field">
+                    <label for="name"> name: </label>
+                    <input type="text" id="name" name="name" placeholder="enter the student name" required/>
+                </div>
+                <div class="field">
+                    <label htmlFor="email"> email: </label>
+                    <input type="email" name="email" id="email" placeholder="enter the email id" required/>
+                </div>
+                <button class="ui blue button" id="submit" type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="ui padded segment" id ="student-data">
+            <table class="ui table" id="student-data-table">
+                <thead>
+                  <tr class="center aligned">
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+            <tbody >
+
+            </tbody>
+            
+            </table>
+        </div>
+    </div>
+    </div>
+
+</div>
+    
+    
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.js" integrity="sha512-nO7wgHUoWPYGCNriyGzcFwPSF+bPDOR+NvtOYy2wMcWkrnCNPKBcFEkU80XIN14UVja0Gdnff9EmydyLlOL7mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javaScript" src="jQ.js" ></script>
+
+</html>
